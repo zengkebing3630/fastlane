@@ -1,6 +1,6 @@
 require 'fileutils'
 
-skip_docs
+skip_docs # Do not create fastlane/README.txt
 
 desc "Runs the unit tests and other verifications for the fastlane repo"
 lane :test do |options|
